@@ -6,7 +6,7 @@ body {
     vertical-align: middle;
     display: table-cell;
     position: absolute;
-    margin: 0 27% 0 23%;
+    margin: 0 27% 0 20%;
     font-family: "Verdana", Geneva, sans-serif;
     font-size: 16px;
     min-width: 600px;
@@ -407,7 +407,7 @@ body {
     .mmenu {
         width: 100%;
         background-color: #669acc;
-        height: 40px;
+        height: 80px;
         display: block;
         position: fixed;
         z-index: 99997;
@@ -415,21 +415,21 @@ body {
     }
     .mmenu .buttonm {
         color: #FFFFFF;
-        margin: -38px 0 0 4px;
-        font-size: 34px;
+        margin: -65px 0 0 15px;
+        font-size: 60px;
     }
     .mmenu .sidetext {
         display: table;
         margin: auto;
         color: #FFFFFF;
         text-align: center;
-        margin-top: 4px;
+        margin-top: 12px;
     }
     .mmenu .sidetext div:first-child {
-        font-size: 16px;
+        font-size: 26px;
     }
     .mmenu .sidetext div:last-child {
-        font-size: 10px;
+        font-size: 16px;
         border-bottom: 0.5px solid #fff;
     }
 }
