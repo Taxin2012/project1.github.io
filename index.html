@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Пробная верстка</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style/animate.css" type="text/css">
+</head>
+<body>
+<div class="mmenu">
+<div class="sidetext">
+    <div>Taxin2012</div>
+    <div>Личный Сайт</div>
+</div>
+    <div class="buttonm" onclick="openNav()">☰</div>
+</div>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img src="imgs/logo.png" alt="" width="120" height="60">
+    <div class="line"></div>
+    <div class="hrefs">
+    <a href="index.html">Главная</a>
+    <a href="#">Новости</a>
+    <a href="#">Обо Мне</a>
+    </div>
+    <div class="line__two"></div>
+</div>
+<div id="main">
+<div class="wrapper">
+    <div class="animated fadeInUp" style="animation-delay: 0.04s;">
+<div class="header">
+    <div class="logo"><a href="index.html"> <img src="imgs/logo.png"></a></div>
+    <div class="menu">
+        <a class="link" href="index.html">Главная</a>
+        <a class="link" href="#">Новости</a>
+        <a class="link" href="#">Обо Мне</a>
+    </div></div></div>
+    <div class="animated fadeInUp" style="animation-delay: 0.05s;">
+        <div class="content">
+            <div class="animated fadeInUp" style="animation-delay: 0.36s;">
+            <div class="fon">
+            <div class="zagolovok">Добро пожаловать!</div>
+            <div class="podzagolovok">Это личный сайт человека с ником Taxin2012, начинающего программиста из России.</div>
+                <div class="blink"><a href="#" class="bc"><div class="button">Обо Мне</div></a></div></div></div>
+                <div class="animated fadeInUp" style="animation-delay: 0.4s;">
+            <div class="fontwo">
+                <div class="rep__block clearfix">
+                    <div class="tittle__rep">Чем я занимаюсь?</div>
+                    <div class="rep">
+                        <img src="imgs/rep3.png" width="180" height="180" alt="">
+                        <h3>Разработка</h3>
+                        <p>Собственных проектов</p>
+                    </div>
+                    <div class="rep">
+                        <img src="imgs/rep2.png" width="180" height="180" alt="">
+                        <h3>Творчество</h3>
+                        <p>Прочее, собственное творчество</p>
+                    </div>
+                    <div class="rep">
+                        <img src="imgs/rep.png" width="180" height="180" alt="">
+                        <h3>Помощь</h3>
+                        <p>В развитии игровых серверов</p>
+                    </div>
+                </div>
+            </div>
+                </div>
+            <div class="animated fadeInUp" style="animation-delay: 0.44s;">
+            <div class="fonthree clearfix">
+            <div class="zagolovokt">Новости</div>
+            </div>
+            </div>
+            <div class="animated fadeInUp" style="animation-delay: 0.48s;">
+                <div class="fonfour clearfix">
+                    <div class="feedbacktexts">
+                    <div class="feedbacktexto">Есть вопросы?</div>
+                    <div class="feedbacktextt">Пишите!</div></div>
+                    <style>
+                        #feedback-form {
+                            max-width: 400px;
+                            padding: 3%;
+                            border-radius: 3px;
+                            background: url(imgs/back6.png);
+                            /*background: #f8f8ff;*/
+                            border: 1px solid green;
+                            margin: auto;
+                        }
+                        #feedback-form [required] {
+                            width: 100%;
+                            box-sizing: border-box;
+                            margin: 2px 0 2% 0;
+                            padding: 2%;
+                            border: 1px solid rgba(0,0,0,.1);
+                            border-radius: 3px;
+                            box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+                        }
+                        #feedback-form [required]:hover {
+                            border-color: #7eb4ea;
+                            box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+                        }
+                        #feedback-form [required]:focus {
+                            outline: none;
+                            border-color: #9BEF7F;
+                            box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+                            transition: .2s linear;
+                        }
+                        #feedback-form [type="submit"] {
+                            padding: 2%;
+                            border: none;
+                            border-radius: 3px;
+                            box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+                            background: #669acc;
+                            color: #fff;
+                            margin-top: 10px;
+                            margin-bottom: -20px;
+                        }
+                        #feedback-form [type="submit"]:hover {
+                            background: #9BEF7F;
+                        }
+                        #feedback-form [type="submit"]:focus {
+                            box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05)
+                        }
+                    </style>
+                    <form method="POST" id="feedback-form">
+                        <div class="last-updates-title2">Ваше имя:
+                            <input type="text" name="nameFF" required placeholder="Например, Иван" x-autocompletetype="name">
+                            Ваш VK:
+                            <input name="VKontakteFF" placeholder="Например, vk.com/id0" required x-autocompletetype="VKontakte" type="text">
+                            Ваше сообщение:</div>
+                        <textarea name="messageFF" required rows="7"></textarea>
+                        <input type="submit" value="Отправить">
+                        <!--<p style="color:yellow; background-color:red; text-align:center; max-width:340px; margin: 0 auto;">Хостинг больше не предоставляет почтовый сервер. Такие дела.</p>
+                        <p style="color:red; border: 1px dashed red;">Сообщение может не отправиться с первого раза, так как сайт работает на бесплатном хостинге.</p>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="animated fadeInUp" style="animation-delay: 0.8s;">
+        <div class="footer">
+            <div>
+                <div> <a href="#openModal" class="auth">Авторизация</a>
+                    <div id="openModal" class="modalDialog">
+                        <div>
+                            <a href="#close" title="Закрыть" class="close">X</a>
+                            <h2>Авторизация</h2>
+                            <div>{login}</div>
+                        </div>
+                    </div> </div>
+                <div> </div>
+                <div> Taxin2012 | 2017 </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
