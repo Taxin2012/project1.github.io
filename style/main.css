@@ -1,5 +1,5 @@
 body {
-   background: url(../imgs/back4.png);
+    background: url(../imgs/back4.png);
 }
 .wrapper {
     width: 53%;
@@ -326,9 +326,10 @@ body {
     position: absolute;
     top: 0;
     right: 0px;
-    font-size: 56px;
-    margin-left: 50px;
-    margin-top: -21px;
+    font-size: 110px;
+    margin-left: 0px;
+    margin-right: -7px;
+    margin-top: -35px;
 }
 
 .sidenav img {
@@ -340,7 +341,7 @@ body {
     background-color: #fff;
     width: 100%;
     height: 3px;
-    margin-top: 0;
+    margin-top: 9.6px;
 }
 
 .line__two {
@@ -407,7 +408,7 @@ body {
     .mmenu {
         width: 100%;
         background-color: #669acc;
-        height: 80px;
+        height: 50px;
         display: block;
         position: fixed;
         z-index: 99997;
@@ -415,7 +416,7 @@ body {
     }
     .mmenu .buttonm {
         color: #FFFFFF;
-        margin: -65px 0 0 15px;
+        margin: -65.5px 0 0 15px;
         font-size: 60px;
     }
     .mmenu .sidetext {
@@ -423,7 +424,7 @@ body {
         margin: auto;
         color: #FFFFFF;
         text-align: center;
-        margin-top: 12px;
+        margin-top: -2px;
     }
     .mmenu .sidetext div:first-child {
         font-size: 26px;
@@ -479,8 +480,8 @@ body {
         padding-right: 5px;
     }
     #feedback-form {
-    margin: 0px auto;
-    float: none;
+        margin: 0px auto;
+        float: none;
     }
 }
 /*------------------Mobile---------*/
