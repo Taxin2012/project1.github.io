@@ -6,8 +6,6 @@
     <title>Пробная верстка</title>
     <link href="style/main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style/animate.css" type="text/css">
-    <link rel="stylesheet" href="style/progress.css" type="text/css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 </head>
 <body>
 <div class="mmenu">
@@ -17,18 +15,6 @@
 </div>
     <div class="buttonm" onclick="openNav()">☰</div>
 </div>
-<script>
-		$(function() {
-			$(".meter > span").each(function() {
-				$(this)
-					.data("origWidth", $(this).width())
-					.width(0)
-					.animate({
-						width: $(this).data("origWidth")
-					}, 1200);
-			});
-		});
-</script>
 <script>
     /* Set the width of the side navigation to 250px */
     function openNav() {
