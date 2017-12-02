@@ -18,10 +18,10 @@
 /* Set the base of our loader */
 
 .barBg {
-	background:#282828;
-	width:20%;
-	height:15px;
-	border:10px solid #282828;
+	background:#FFFFFF;
+	width:90%;
+	height:10px;
+	border:0px solid #FFFFFF; /* #282828 */
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -32,8 +32,7 @@
 
 .bar {
 	background: #7aff32;
-	height:30px;
-	height: 15px;
+	height:10px;
 	border-radius: 12px;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 10px;
@@ -43,7 +42,7 @@
 
 .barFill {
 	width: 100%;
-	height: 15px;
+	height: 10px;
 	border-radius: 20px;
 	-webkit-animation: progress 1s linear infinite;
 	-moz-animation: progress 1s linear infinite;
