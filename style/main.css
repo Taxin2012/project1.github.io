@@ -1,3 +1,7 @@
+@font-face {
+font-family: "RobotoL";
+src: url("../fonts/Roboto-Light.ttf");   
+}
 body {
     background: url(../imgs/back4.png);
 }
