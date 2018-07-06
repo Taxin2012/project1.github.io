@@ -49,6 +49,7 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
+    background-repeat:repeat-x;
     text-align: center;
 }
 .zagolovok {
