@@ -48,8 +48,8 @@ body {
     background-color: rgb(225,245,254);
     background-size: cover;
     background-position: center bottom;
-    background-attachment: fixed;
-    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-repeat: round;
     text-align: center;
 }
 .zagolovok {
