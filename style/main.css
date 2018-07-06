@@ -49,7 +49,7 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
-    background-repeat:repeat-y;
+    background-repeat: round;
     text-align: center;
 }
 .zagolovok {
