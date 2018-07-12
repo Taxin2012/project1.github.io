@@ -46,10 +46,9 @@ body {
     min-height: 300px;
     background: url(../imgs/fon.png);
     background-color: rgb(225,245,254);
-    background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
-    text-align: center;
+    background-attachment:fixed;
+    background-size:auto;
+    background-position:center;
 }
 .zagolovok {
     display: inline-block;
