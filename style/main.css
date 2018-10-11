@@ -42,7 +42,7 @@ body {
 }
 
 .fon {
-    float: right;
+    text-align: center;
     width: 100%;
     min-height: 300px;
     background: url(../imgs/fon.png);
