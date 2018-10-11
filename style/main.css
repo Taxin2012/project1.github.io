@@ -42,6 +42,8 @@ body {
 }
 
 .fon {
+    float: none;
+    margin: auto;
     width: 100%;
     min-height: 300px;
     background: url(../imgs/fon.png);
