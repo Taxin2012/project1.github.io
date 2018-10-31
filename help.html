@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Заметки в HTML/СSS</title>
+</head>
+<body>
+	<style type="text/css">
+		@font-face {
+			font-family: "RobotoL";
+			src: url("fonts/Roboto-Light.ttf");
+		}
+
+		body {
+			float: left;
+			width: 300px;
+			font-family: "RobotoL";
+		}
+
+		p {
+			margin: 0px 5px 0px 5px;
+		}
+
+		.block {
+			margin-top: 15px;
+			border: 4px outset green;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.code {
+			float: none;
+			margin: auto;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid black;
+			border-radius: 5%;
+			background-color: rgba( 64, 64, 64, 0.5 );
+			opacity: 50;
+			width: 200px;
+		}
+	</style>
+
+	<div id="wrapper">
+		<div class="block">
+			<p>Выравнивание по центру:</p><br>
+			<div class="code">
+				<code>
+					display: -webkit-flex;<br>
+					display: flex;<br>
+					align-items: center;<br>
+					justify-content: center;
+				</code>
+			</div>
+		</div>
+
+		<!--<div class="block">
+			<p>:</p><br>
+			<div class="code">
+				<code>
+					<br>
+					
+				</code>
+			</div>
+		</div>-->
+	</div>
+</body>
+</html>
